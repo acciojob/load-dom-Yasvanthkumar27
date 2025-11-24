@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<script type="text/javascript" src="./script.js">
-		document.addEventListener("DOMContentLoaded", function() {
-        document.body.innerText = "DOM load success";
-    });
-</script>
+  <meta charset="utf-8" />
+  <title>Load DOM</title>
+
+  <!-- Script must NOT be inside <body> -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Replace body content with plain text after DOM is ready
+      document.body.innerText = "DOM load success";
+    });
+  </script>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    
-
+  
 </body>
-
 </html>
